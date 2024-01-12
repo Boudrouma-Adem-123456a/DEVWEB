@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ceci est notre portfolio étudiant">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="styles/mode_sombre.css" type="text/css" id="dark-theme" disabled>
+</head>
+    <body>
+        <nav class="navbar">
+            <a href="#top" class="#logo">PORTFOLIO</a>
+            <div class="nav_links">
+                <ul>
+                    <li class="active"><a href="#accueil">HOME</a></li>
+                    <li><a href="#apropos">A PROPOS DE NOUS</a></li>
+                    <li><a href="#competences">DECOUVREZ NOS COMPETENCES</a></li>
+                    <li><a href="#realisations">NOS REALISATIONS</a></li>
+                    <li><a href="#formulaire">FORMULAIRE</a></li>
+                    <li><a href="#contacts">NOS CONTACTS</a></li>
+                    <li class="toggle-theme"><a href="#">MODE SOMBRE</a></li>
+                </ul>
+            </div>
+            <img class="barre_des_taches" src="img/barre.png" alt="barre des taches">
+        </nav>
+        <header>
+        <img class="image_nav" src="img/montagne.png" alt="">
+        </header>
+        <div class="scroll-to-top" id="scrollToTop">
+            <a href="#top">&uarr;</a>
+        </div>
+            <section id="accueil" class="slider">
+                <img src="img/test.jpg" alt="image de fond" class="slider-bg">
+                <div class="slider-content">
+                    <h1>Benkhedda Abed <br> Boudrouma Adem</h1>
+                <p>nous sommes développeur full stack</p>
+                </div>
+            </section>
+            <section id="apropos" class="section">
+                    <div class="boxed">
+                        <div class="flex">
+                            <div class="w40">
+                                <h2>À propos de nous</h2>
+                            </div>
+                            <div class="w60">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, suscipit repellat vitae dolorem quod, facilis a fugit quam deleniti magnam molestias cumque aut enim velit, voluptatem veniam. Possimus, cumque iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus explicabo perspiciatis harum recusandae provident dolorum dicta reiciendis ut pariatur quas placeat deserunt quibusdam, ullam et iusto, vero nisi minus aliquam.</p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section id="competences" class="section dark">
+                <div class="boxed text-center">
+                    <h2>Découvrez nos compétences</h2>
+                    <div class="flex gap20">
+                        <div class="w25 skill">
+                            <img class="" src="img/HTML5-logo.png" alt="logo html">
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="w25 skill">
+                            <img class="" src="img/css3.png" alt="logo css">
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="w25 skill">
+                            <img class="" src="img/Javascript-logo2.png" alt="logo javascript">
+                            <h3>JS</h3>
+                        </div>
+                        <div class="w25 skill">
+                            <img class="cpp" src="img/C++.png" alt="logo c++">
+                            <h3>C++</h3>
+                        </div>
+                    </div>
+                </div>
+        </section>
+            <div id="realisations" class="section">
+                <div class="boxed text-center">
+                        <h2>Nos réalisation</h2>
+                        <section class="flex wrap gap20 space-between">
+                            <div class="w32 réalisation">
+                                <a href="https://boutique-top-chef.com/" target="_blank">
+                                    <h3>Site de cuisine</h3>
+                                    <img src="img/cuisine.png" alt="image de cuisine">
+                                </a>
+                                
+                            </div>
+                            <div class="w32 réalisation">
+                                <a href="https://www.zalando.fr/" target="_blank">
+                                    <h3>Site de mode</h3>
+
+                                    <img src="img/mode.png" alt="image de mode">
+                                </a>
+                            </div>
+                            <div class="w32 réalisation">
+                                <a href="https://www.bmw.fr/fr/accueil.html" target="_blank">
+                                    <h3>Site de voiture</h3>
+
+                                    <img src="img/voiture.png" alt="image de voiture">
+                                </a>
+                            </div>
+                            <div class="w32 réalisation">
+                                <a href="https://bigm-burger.fr/" target="_blank">
+                                    <h3>Site de snack</h3>
+
+                                    <img src="img/tragos.jpg" alt="image de snack">
+                                </a>
+                            </div>
+                            <div class="w32 réalisation">
+                                <a href="https://www.paul.fr/" target="_blank">
+                                    <h3>Site de boulangerie</h3>
+
+                                    <img src="img/boulangerie.png" alt="image de boulangerie">
+                                </a>
+                            </div>
+                            <div class="w32 réalisation">
+                                <a href="https://www.amazon.fr/ref=nav_logo" target="_blank">
+                                    <h3>Site de vente</h3>
+                                    <img src="img/vente.png" alt="image vente">
+                                </a>
+                            </div>
+                        </section>
+                </div>
+            </div>    
+            <section id="formulaire" class="section">
+                <div class="boxed text-center">
+                    <h2>Formulaire d'Avis</h2>
+                    <form id="avisForm">
+                        <label for="nom">Nom:</label>
+                        <input type="text" id="nom" name="nom" required>
+        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="commentaire">Commentaire:</label>
+                        <textarea id="commentaire" name="commentaire" rows="4" required></textarea>
+                        <button type="submit">Envoyer</button>
+                        
+                    </form>
+                    <div id="validation-message"></div>
+                </div>
+            </section>
+            <footer>
+                <div id="contacts" class="contenu-footer">
+             
+                    <div class="blocservices">
+                        <h3>Nos services </h3>
+                        <ul class="liste-services">
+                            <li> Creation de Sites personnaliser </li>
+                            <li> Creation de Sites professionel</li>
+                            <li> Creation de Sites publicitaire </li>
+                            <li> Creation de portfolio </li>
+                        </ul>
+                    </div>
+                    <div class="bloccontact">
+                        <h3>Nos contact</h3>
+                        <p>0745270959</p>
+                        <p>0758796493</p>
+                        <p>ademlmb13014@gmail.com</p>
+                        <p>jiljilou1@gmail.com</p>
+                    </div>
+                    <div class="blochoraires">
+                        <h3>Nos horaires </h3>
+                        <ul class="liste-horaires">
+                            <li>✔️ lundi 10h-17h</li>
+                            <li>✔️ mardi 10h-17h</li>
+                            <li>✔️mercredi 10h-17h</li>
+                            <li>✔️ jeudi 10h-17h</li>
+                            <li>✔️ vendredi 10h-12h 14h-17h</li>
+                            <li>❌ samedi fermer</li>
+                            <li>❌dimanche fermer</li>
+                        </ul>
+                    </div>
+                    <div class="blocreseau">
+                        <h3>Nos reseau </h3>
+                        <ul class="liste-reseau">
+                            <li> <img src="img/Instagram_icon.png.webp" alt="icones instagram">@__ademlmb__/ @jiljilou1</li>
+                            <li> <img src="img/logo-Snapchat.png" alt="Icones snap">ademlesandl/ abedabed321</li>
+                            <li> <img src="img/logo-discord.png" alt="Icones Discord">#ad7077/ #jiljilou</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+           
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const barreDesTaches = document.querySelector(".barre_des_taches");
+                    const navLinks = document.querySelector(".nav_links");
+                    const body = document.querySelector("body");
+                    const darkThemeLink = document.getElementById("dark-theme");
+            
+                    barreDesTaches.addEventListener('click', () => {
+                        navLinks.classList.toggle('mobile-menu');
+                    });
+            
+                    const toggleTheme = document.querySelector('.toggle-theme');
+                    toggleTheme.addEventListener('click', () => {
+                        body.classList.toggle('dark-mode');
+                        darkThemeLink.disabled = !darkThemeLink.disabled; // Active/désactive le lien de la feuille de style sombre
+                    });
+                });
+            </script>
+</html>

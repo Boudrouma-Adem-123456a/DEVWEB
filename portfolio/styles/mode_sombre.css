@@ -1,0 +1,65 @@
+/* CSS pour le mode sombre */
+body.dark-mode {
+    background-color: #222; /* Couleur de fond sombre */
+    color: #fff; /* Couleur du texte en mode sombre */
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+}
+.navbar {
+    background-color: #333; /* Fond de la barre de navigation en mode sombre */
+}
+
+.navbar a {
+    color: #fff; /* Couleur des liens en mode sombre */
+}
+
+.navbar .logo {
+    color: #fff; /* Couleur du texte du logo en mode sombre */
+}
+
+.navbar .nav_links {
+    background-color: rgba(255, 255, 255, 0.1); /* Fond du menu en mode sombre */
+}
+
+.navbar .nav_links ul li a {
+    color: #fff; /* Couleur des liens du menu en mode sombre */
+}
+
+.section.dark {
+    background: #111; /* Fond des sections sombres */
+    color: #fff; /* Couleur du texte des sections sombres */
+}
+
+.skill {
+    background: #444; /* Fond des compétences en mode sombre */
+    color: #fff; /* Couleur du texte des compétences en mode sombre */
+}
+
+.réalisation {
+    background: #444; /* Fond des réalisations en mode sombre */
+    color: #fff; /* Couleur du texte des réalisations en mode sombre */
+}
+
+#formulaire {
+    background-color: #111; /* Fond du formulaire en mode sombre */
+    color: #fff; /* Couleur du texte du formulaire en mode sombre */
+}
+
+#validation-message {
+    color: #4CAF50; /* Couleur du texte de validation en mode sombre */
+    background-color: #dff0d8;
+}
+
